@@ -16,7 +16,7 @@ pipeline, and the accepted limitations. The companion loader has its own paper:
 | Repository | What it is |
 |---|---|
 | [fruit-basket](https://github.com/fruitvibes123/fruit-basket) | the OS: dm-verity + IMA/EVM sealed rootfs, Rust PID-1, A/B updates, no shell, no package manager |
-| [orchard](https://github.com/fruitvibes123/orchard) | the build/deploy factory: pinned-input image bakes, QEMU boot gates, install/update/backup ceremonies — its [guide](https://github.com/fruitvibes123/orchard/blob/main/orchard_guide.md) is the end-to-end walkthrough |
+| [orchard](https://github.com/fruitvibes123/orchard) | the build/deploy factory: the guided ceremony conducts the whole box lifecycle as one resumable run (`orchard guide`, `orchard run`, `orchard admit`); pinned-input image bakes, QEMU boot gates, A/B updates — start with the [quickstart](https://github.com/fruitvibes123/orchard/blob/main/docs/guided-quickstart.md) |
 | [seed-vault](https://github.com/fruitvibes123/seed-vault) | the reusable security crates: six MIT/Apache verification cores + the GPL signer family |
 
 Six of the seed-vault crates are on crates.io:
